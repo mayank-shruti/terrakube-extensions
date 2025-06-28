@@ -22,8 +22,8 @@ flow:
       message
         .setActivity('My activity title', 'Activity subtitle')
         .setButtons([
-          'Go to Terrakube site!': 'https://www.terrakube.org',
-          'terrakube docs': 'https://docs.terrakube.org'
+          'Go to Terrakube site!': 'https://terrakube.io',
+          'terrakube docs': 'https://docs.terrakube.io'
         ])
         .setFacts([
           'Fact 1': 'Value 1',
