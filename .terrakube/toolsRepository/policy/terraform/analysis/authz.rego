@@ -1,8 +1,9 @@
 package terraform.analysis
 
+# Default allow
 default authz = true
 
-# Block public S3 ACL
+# DENY if S3 ACL is public-read or public-read-write
 authz = false {
   some rc
   rc := input.resource_changes[_]
